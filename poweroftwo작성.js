@@ -12,3 +12,8 @@ function powerOfTwo(num) {
         return false
     }
 }
+
+// REF
+//function powerOfTwo(num) {
+//    return Number.isInteger(Math.log2(num));
+//}
