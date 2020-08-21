@@ -2,9 +2,9 @@ function powerOfTwo(num) {
     if (num === 1) {
         return true
     }
-    let result
-    while (result < 3) {
-        result = num / 2
+    let result = 0;
+    for (num; num > 1; num = num / 2) {
+        result = num
     }
     if (result === 2) {
         return true
