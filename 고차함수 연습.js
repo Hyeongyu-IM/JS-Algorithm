@@ -8,3 +8,8 @@ function returnFunction() {
 function functionParameter(func, num) {
     return func(num)
 }
+
+function applyTwice(func, num) {
+    return func(func(num))
+
+}
